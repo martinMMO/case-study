@@ -1,0 +1,18 @@
+{
+  "baseUrl": "https://new.gymbeam.sk",
+  "env": {
+    "email": "mohler.martin@gmail.com",
+    "password": "zunrez-fiwJuc-soxwa1",
+    "userName" : "Martin Mohler",
+    "wrongCredentialsErrorMsg": "Prihlásenie do účtu bolo nesprávne alebo je váš účet dočasne deaktivovaný. Počkajte a skúste to znova neskôr.",
+    "mandatoryCredentialsErrorMsg": "Prihlasovacie meno a heslo sú povinné."
+  },
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporter-config.json"
+  },
+  "viewportWidth": 1920,
+  "viewportHeight": 1500,
+  "requestTimeout": 10000
+
+}
